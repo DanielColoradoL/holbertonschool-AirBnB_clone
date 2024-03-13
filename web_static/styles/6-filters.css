@@ -6,6 +6,7 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .filters button {
@@ -58,6 +59,7 @@ ul.popover {
     border-radius: 4px;
     list-style-type: none;
     background-color: #f8f8f8;
+    z-index: 5;
 }
 
 ul.popover li {

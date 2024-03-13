@@ -9,6 +9,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 30px auto;
-    position: relative;
-    top: 70px;
+    padding-bottom: 50px;
+    /* position: relative;
+    top: 70px; */
 }
