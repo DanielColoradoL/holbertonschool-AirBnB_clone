@@ -1,13 +1,10 @@
-
-.filters {
+.container .filters {
     background-color: white;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    position: relative;
     display: flex;
-    align-items: center;
 }
 
 .filters button {
@@ -20,17 +17,21 @@
     border-radius: 4px;
     position: absolute;
     right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
 
 .filters button:hover {
     opacity: 90%;
 }
 
+
 .locations {
     height: 100%;
     width: 25%;
-    border-right: 1px solid #DDDDDD;
     padding-left: 5%;
+    border-right: 1px solid #DDDDDD; 
 }
 
 .amenities {

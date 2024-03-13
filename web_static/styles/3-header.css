@@ -2,19 +2,17 @@ header {
     background-color: white;
     height: 70px;
     width: 100%;
-    left: 0;
+    position: absolute;
     top: 0;
     border-bottom: 1px solid #CCCCCC;
     display: flex;
+    align-items: center;
 }
 
 .logo {
-    width: 90%; /* Assuming width of the logo */
-    height: 90%; /* Assuming height of the logo */
     background-image: url('../images/logo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 142px;
+    height: 60px;
+    position: absolute;
+    left: 20px;
 }
